@@ -1,3 +1,11 @@
+This is a Desktop Application developed using .Net Core, Sql Server for database
+
+This application can be used to clean the data scanned by bar-code scanners. There are 100 - 200 cards with each card having a cardId and a Identity tag ( Datamatrix, Barcode, QR etc..,). An OCR camera is used to detect the cardID and the scanner scans the data. All this data will be sent to database.
+
+But due to errors we get some wrong card Id's in the data. It is hard to manually go through thousands of data and check if the card ID belongs to a particular data. 
+
+This Application makes it possible. It checks if the corresponding card Id is assigned to the data. We need to give a reference data for the application so that it can identify card Id's and data.
+
 User Manual For Data CleanUp
 
  ![image](https://github.com/VamshiChirumani/Barcode-Data-Cleanup/assets/92098361/4e6daaf5-fcfc-49c2-abfa-50c8b39bb0dc)
